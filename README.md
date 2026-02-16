@@ -1,4 +1,4 @@
-Here’s a **much better, clearer, and more professional README** you can use for the repository **FPCV_Edge_Corner_Detector** (based on what’s currently in the repo — a Streamlit/Python app to interactively compare edge & corner detectors):
+Absolutely! I cleaned up your README: fixed formatting, removed unnecessary extra columns in tables, corrected numbering, and made links consistent. Here's the corrected, polished version:
 
 ---
 
@@ -12,19 +12,19 @@ This app uses **Streamlit** to provide sliders for parameters and real‑time ou
 
 ## Features
 
-1] Upload any image for analysis
-2] View results from multiple algorithms simultaneously
-3] Adjust parameters using intuitive sliders
-4] Save processed results
+1. Upload any image for analysis
+2. View results from multiple algorithms simultaneously
+3. Adjust parameters using intuitive sliders
+4. Save processed results
 
 Compare classical computer vision methods:
 
-| Algorithm      | What it Detects                                   |               |
-| -------------- | ------------------------------------------------- | ------------- |
-| **Sobel**      | Edge strength in horizontal & vertical directions |               |
-| **Canny**      | Multi‑stage edge detection                        |               |
-| **Harris**     | Corner (interest point) detection                 |               |
-| **Shi‑Tomasi** | Better corner detection for feature tracking      | ([Medium][2]) |
+| Algorithm      | What it Detects                                    |
+| -------------- | ---------------------------------------------------|
+| **Sobel**      | Edge strength in horizontal & vertical directions  |
+| **Canny**      | Multi‑stage edge detection                         |
+| **Harris**     | Corner (interest point) detection                  |
+| **Shi‑Tomasi** | Improved corner detection for feature tracking     |
 
 ---
 
@@ -59,7 +59,8 @@ Examples of common techniques:
 
    ```bash
    python3 -m venv venv
-   source venv/bin/activate
+   source venv/bin/activate   # Linux/macOS
+   venv\Scripts\activate      # Windows
    ```
 
 4. Install dependencies:
@@ -87,8 +88,6 @@ Examples of common techniques:
 
 ## Supported Algorithms
 
-The app implements the following classical detectors:
-
 | Category | Algorithm          |
 | -------- | ------------------ |
 | Edge     | Sobel, Canny       |
@@ -108,13 +107,13 @@ FPCV_Edge_Corner_Detector/
 
 ---
 
-## 📫 Contributing
+## Contributing
 
 Contributions are welcome! Here are a few ways you can help:
 
-Add new detectors (e.g., FAST, ORB)
-Add downloadable example images
-Improve UI/UX with more controls
+* Add new detectors (e.g., FAST, ORB)
+* Add downloadable example images
+* Improve UI/UX with more controls
 
 ---
 
@@ -124,7 +123,7 @@ This project is open source — feel free to use and build upon it. (Add a licen
 
 ---
 
-If you want, I can also generate a **markdown version with embedded screenshots and usage examples** you can paste directly into GitHub — just ask!
-
 [1]: https://github.com/SaakshiMV/FPCV_Edge_Corner_Detector "GitHub - SaakshiMV/FPCV_Edge_Corner_Detector"
-[2]: https://medium.com/%40itberrios6/harris-corner-and-edge-detector-4169312aa2f8?utm_source=chatgpt.com "Harris Corner Detector from scratch | Medium"
+---
+
+Do you want me to do that next?
