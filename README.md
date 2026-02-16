@@ -12,11 +12,12 @@ This app uses **Streamlit** to provide sliders for parameters and real‑time ou
 
 ## Features
 
-✔ Upload any image for analysis
-✔ View results from multiple algorithms simultaneously
-✔ Adjust parameters using intuitive sliders
-✔ Save processed results
-✔ Compare classical computer vision methods:
+1] Upload any image for analysis
+2] View results from multiple algorithms simultaneously
+3] Adjust parameters using intuitive sliders
+4] Save processed results
+
+Compare classical computer vision methods:
 
 | Algorithm      | What it Detects                                   |               |
 | -------------- | ------------------------------------------------- | ------------- |
@@ -75,7 +76,7 @@ Examples of common techniques:
 
 ---
 
-## 🖼️ Usage
+## Usage
 
 1. Upload an image file via the UI.
 2. Adjust sliders to set detector parameters (e.g., Canny thresholds, Harris block size).
