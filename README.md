@@ -1,10 +1,6 @@
-Absolutely! I cleaned up your README: fixed formatting, removed unnecessary extra columns in tables, corrected numbering, and made links consistent. Here's the corrected, polished version:
-
----
-
 # Ultimate Edge & Corner Detector
 
-An interactive tool to **compare different edge and corner detection algorithms** on images — visualize and experiment with Sobel, Canny, Harris, and Shi‑Tomasi detectors side by side. ([GitHub][1])
+An interactive tool to **compare different edge and corner detection algorithms** on images  visualize and experiment with Sobel, Canny, Harris, and Shi‑Tomasi detectors side by side. ([GitHub][1])
 
 This app uses **Streamlit** to provide sliders for parameters and real‑time output so you can see how each algorithm responds to changes.
 
@@ -30,7 +26,7 @@ Compare classical computer vision methods:
 
 ## About Edge & Corner Detection
 
-Edge detection highlights places where image intensity changes sharply — useful for **boundary & shape extraction**. Corner detection finds points where two edges intersect — often used as **feature points** in tracking, matching, segmentation, and 3D reconstruction.
+Edge detection highlights places where image intensity changes sharply  useful for **boundary & shape extraction**. Corner detection finds points where two edges intersect  often used as **feature points** in tracking, matching, segmentation, and 3D reconstruction.
 
 Examples of common techniques:
 
@@ -119,9 +115,8 @@ Contributions are welcome! Here are a few ways you can help:
 
 ## License
 
-This project is open source — feel free to use and build upon it. (Add a license file if you choose an open‑source license.)
+This project is open source  feel free to use and build upon it. (Add a license file if you choose an open‑source license.)
 
 ---
 
 [1]: https://github.com/SaakshiMV/FPCV_Edge_Corner_Detector "GitHub - SaakshiMV/FPCV_Edge_Corner_Detector"
----
