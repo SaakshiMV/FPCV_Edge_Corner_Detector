@@ -125,5 +125,3 @@ This project is open source — feel free to use and build upon it. (Add a licen
 
 [1]: https://github.com/SaakshiMV/FPCV_Edge_Corner_Detector "GitHub - SaakshiMV/FPCV_Edge_Corner_Detector"
 ---
-
-Do you want me to do that next?
