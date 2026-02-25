@@ -1,122 +1,158 @@
-# Ultimate Edge & Corner Detector
+# Ultimate Edge & Corner Detector 🧭
 
-An interactive tool to **compare different edge and corner detection algorithms** on images  visualize and experiment with Sobel, Canny, Harris, and Shi‑Tomasi detectors side by side. ([GitHub][1])
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-app-red)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-This app uses **Streamlit** to provide sliders for parameters and real‑time output so you can see how each algorithm responds to changes.
+An interactive computer vision tool for **visualizing and comparing classical edge and corner detection algorithms**.  
+Experiment with **Sobel, Canny, Harris, and Shi-Tomasi** detectors and observe their behavior in real time.
 
----
-
-## Features
-
-1. Upload any image for analysis
-2. View results from multiple algorithms simultaneously
-3. Adjust parameters using intuitive sliders
-4. Save processed results
-
-Compare classical computer vision methods:
-
-| Algorithm      | What it Detects                                    |
-| -------------- | ---------------------------------------------------|
-| **Sobel**      | Edge strength in horizontal & vertical directions  |
-| **Canny**      | Multi‑stage edge detection                         |
-| **Harris**     | Corner (interest point) detection                  |
-| **Shi‑Tomasi** | Improved corner detection for feature tracking     |
+Built with **Streamlit** for an intuitive UI and instant feedback.
 
 ---
 
-## About Edge & Corner Detection
+## ✨ Overview
 
-Edge detection highlights places where image intensity changes sharply  useful for **boundary & shape extraction**. Corner detection finds points where two edges intersect  often used as **feature points** in tracking, matching, segmentation, and 3D reconstruction.
+**Ultimate Edge & Corner Detector** allows users to upload an image and explore how different detection algorithms respond to parameter changes.
 
-Examples of common techniques:
+Instead of static outputs, the application provides **live visual experimentation**, making it useful for:
 
-* **Sobel** — approximates image gradients
-* **Canny** — robust edge detector with noise filtering
-* **Harris** — finds interest corners by analyzing local intensity variations
-* **Shi‑Tomasi** — improved corner detector over Harris ([Medium][2])
-
----
-
-## Installation
-
-1. Clone this repo:
-
-   ```bash
-   git clone https://github.com/SaakshiMV/FPCV_Edge_Corner_Detector.git
-   ```
-
-2. Change into project folder:
-
-   ```bash
-   cd FPCV_Edge_Corner_Detector
-   ```
-
-3. Create and activate a Python environment (optional but recommended):
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # Linux/macOS
-   venv\Scripts\activate      # Windows
-   ```
-
-4. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Run the app:
-
-   ```bash
-   streamlit run app.py
-   ```
+- Learning computer vision fundamentals  
+- Understanding algorithm behavior  
+- Rapid prototyping & testing  
 
 ---
 
-## Usage
+## 🚀 Features
 
-1. Upload an image file via the UI.
-2. Adjust sliders to set detector parameters (e.g., Canny thresholds, Harris block size).
-3. Observe how edges and corners change with different settings.
-4. Download or save output images if desired.
-
----
-
-## Supported Algorithms
-
-| Category | Algorithm          |
-| -------- | ------------------ |
-| Edge     | Sobel, Canny       |
-| Corners  | Harris, Shi‑Tomasi |
+✔ Upload any image for analysis  
+✔ Compare multiple algorithms side by side  
+✔ Interactive parameter tuning with sliders  
+✔ Real-time visual updates  
+✔ Save / download processed results  
 
 ---
 
-## Project Structure
+## 🔍 Supported Algorithms
+
+| Category | Algorithm          | Description |
+|----------|-------------------|-------------|
+| **Edge Detection** | **Sobel** | Computes image gradients to highlight edges |
+| | **Canny** | Multi-stage edge detection with noise filtering |
+| **Corner Detection** | **Harris** | Detects corners via local intensity variations |
+| | **Shi-Tomasi** | Improved corner detection for tracking & features |
+
+---
+
+## 🧠 Edge vs Corner Detection
+
+**Edge Detection** identifies regions of sharp intensity change useful for:
+
+- Boundary detection  
+- Shape analysis  
+- Segmentation  
+
+**Corner Detection** identifies interest points where edges intersect useful for:
+
+- Feature tracking  
+- Image matching  
+- Object recognition  
+- 3D reconstruction  
+
+---
+
+## 🛠 Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/SaakshiMV/FPCV_Edge_Corner_Detector.git
+cd FPCV_Edge_Corner_Detector
+````
+
+---
+
+### 2️⃣ Create a Virtual Environment (Recommended)
+
+**Windows**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Mac / Linux**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+Streamlit will automatically open the app in your browser.
+
+---
+
+## 🧭 Usage
+
+1. Launch the Streamlit app
+2. Upload an image
+3. Adjust detector parameters (thresholds, block size, etc.)
+4. Observe live changes
+5. Save or download outputs
+
+---
+
+## 📂 Project Structure
 
 ```
 FPCV_Edge_Corner_Detector/
 ├── app.py                # Main Streamlit application
-├── requirements.txt      # Python dependencies
-├── README.md             # This file
+├── requirements.txt      # Dependencies
+├── README.md
 ├── .gitignore
 ```
 
 ---
 
-## Contributing
+## 🔮 Future Enhancements
 
-Contributions are welcome! Here are a few ways you can help:
-
-* Add new detectors (e.g., FAST, ORB)
-* Add downloadable example images
-* Improve UI/UX with more controls
-
----
-
-## License
-
-This project is open source  feel free to use and build upon it. (Add a license file if you choose an open‑source license.)
+* Add modern detectors (FAST, ORB, SIFT)
+* Batch image processing
+* Parameter presets for quick testing
+* Visual overlays & annotations
+* Performance optimizations
 
 ---
 
-[1]: https://github.com/SaakshiMV/FPCV_Edge_Corner_Detector "GitHub - SaakshiMV/FPCV_Edge_Corner_Detector"
+## 🤝 Contributing
+
+Contributions are welcome!
+
+Possible improvements:
+
+* New detection algorithms
+* UI/UX enhancements
+* Example datasets
+* Performance improvements
+
+---
+
+## 📜 License
+
+This project is open-source.
